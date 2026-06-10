@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frequent Pattern-Based Prefetching and Caching for Cloud Storage Systems
 
 A research implementation of graph-based frequent pattern mining combined with LSTM machine learning to optimize read operations in Distributed File Systems (DFS).
@@ -154,3 +155,7 @@ Submitted to ICCNT 2024
 Built by **Vamsi Kishore Nallagopu**
 M.S. Computer Science — California State University, San Bernardino
 [GitHub](https://github.com/Vamsikishore-hub) | [LinkedIn](https://www.linkedin.com/in/vamsi-kishore-nallagopu-097707240/)
+=======
+# Prefetching-Caching-DFS
+Graph-based frequent pattern mining + LSTM-driven prefetching to optimize read operations in Distributed File Systems | Research paper submitted to ICCNT 2024
+>>>>>>> 9b5b6751af3fa3bf50f3b49b1866b79e03e1909a
