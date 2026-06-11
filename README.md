@@ -79,32 +79,32 @@ Amazon Weblog Data (logsmall.txt)
         │
         ▼
   ┌─────────────────────┐
-  │  Data Preprocessing  │  Remove consecutive duplicate blocks
-  │  Session Grouping    │  Group by RackID + DataNodeID
+  │  Data Preprocessing │  Remove consecutive duplicate blocks
+  │  Session Grouping   │  Group by RackID + DataNodeID
   └─────────┬───────────┘
             │
             ▼
   ┌─────────────────────┐
-  │  Graph Construction  │  Nodes=Blocks, Edges=Transitions
-  │  Graph Pruning       │  Remove infrequent nodes/edges
+  │  Graph Construction │  Nodes=Blocks, Edges=Transitions
+  │  Graph Pruning      │  Remove infrequent nodes/edges
   └─────────┬───────────┘
             │
             ▼
   ┌─────────────────────┐
-  │  Pattern Mining      │  2-hop and 3-hop frequent patterns
-  │  129,830 patterns    │  with frequency, length, support
+  │  Pattern Mining     │  2-hop and 3-hop frequent patterns
+  │  129,830 patterns   │  with frequency, length, support
   └─────────┬───────────┘
             │
             ▼
   ┌─────────────────────┐
-  │  LSTM Training       │  50 units, Adam, Early Stopping
-  │  RMSE: 5.33          │  Predicts future access sequences
+  │  LSTM Training      │  50 units, Adam, Early Stopping
+  │  RMSE: 5.33         │  Predicts future access sequences
   └─────────┬───────────┘
             │
             ▼
   ┌─────────────────────┐
-  │  Prefetch Simulation │  LSTM Prefetch vs Traditional LRU
-  │  +1.91% improvement  │  Across cache sizes 5, 10, 20, 30, 50
+  │  Prefetch Simulation│  LSTM Prefetch vs Traditional LRU
+  │  +1.91% improvement │  Across cache sizes 5, 10, 20, 30, 50
   └─────────────────────┘
 ```
 
